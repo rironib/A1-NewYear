@@ -60,7 +60,7 @@ main {
   color: #ff0000;
   font-size: 88px;
   font-weight: 700;
-  margin-bottom: 48px;
+  margin-bottom: 2rem;
 }
 .offer-card h6 {
   color: #ff0000;
@@ -305,6 +305,7 @@ main {
   margin-bottom: 22px;
 }
 .portfolio p {
+  max-width: 80%;
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
