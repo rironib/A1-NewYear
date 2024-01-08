@@ -1,0 +1,411 @@
+/* Common Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", serif;
+}
+
+/* Header Styles */
+header {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url("images/Banner Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 120px !important;
+}
+.banner {
+  font-family: "Merriweather";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  min-height: 600px;
+  color: #ffffff;
+  border-radius: 1rem;
+}
+.banner-info {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.banner-title {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  width: 640px;
+}
+
+/* Main Styles */
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* Offer Card Styles */
+.offer-card {
+  margin-bottom: 5rem !important;
+  text-align: center;
+}
+.offer-card h1 {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer-card h6 {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.offer-card h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+/* Party Card Styles */
+.party {
+  background-image: url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  margin-bottom: 120px !important;
+}
+.party-card {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 126px;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.party-card h1 {
+  font-family: "Merriweather";
+  width: 640px;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.party-card p {
+  width: 690px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.party-card a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+/* Party Venue Styles */
+.party-venue {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 1rem;
+  margin-bottom: 120px !important;
+}
+.party-venue-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-bottom: 3rem;
+}
+.party-venue-card p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.party-venue-card span {
+  color: #ff0000;
+}
+.party-venue-button {
+  padding: 1rem 2rem;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Coming Soon Styles */
+.coming-soon {
+  margin-bottom: 120px !important;
+  height: 463px;
+  display: flex;
+  align-items: center;
+  column-gap: 5rem;
+}
+.coming-soon-left {
+  width: 40%;
+}
+.coming-soon-left h4 {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.coming-soon-left h3 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.coming-soon-left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+.coming-soon-center {
+  width: 364.844px;
+  height: 364.844px;
+  padding: 1rem;
+  border: 15px solid #f00;
+  border-radius: 50%;
+}
+.coming-soon-right {
+  width: 40%;
+}
+.coming-soon-right h2 {
+  color: #ff0000;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.coming-soon-right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.coming-soon-right img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Discount Styles */
+.discount {
+  width: 1320px;
+  height: 986px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 120px !important;
+}
+.discount h6 {
+  color: #070211;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.discount h1 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.discount h1 span {
+  color: #ff0000;
+}
+.discount p {
+  width: 80%;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 64px;
+  text-align: center;
+}
+.discount-card {
+}
+
+/* Portfolio Styles */
+.portfolio {
+  margin-bottom: 120px !important;
+}
+.portfolio h5 {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.portfolio h3 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.portfolio-card {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.portfolio-card-gap {
+  margin-bottom: 1.5rem;
+}
+.portfolio-image {
+  height: 450px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.portfolio-card img {
+  transition: transform 0.5s ease;
+}
+.portfolio-card img:hover {
+  transform: scale(1.2);
+}
+
+/* Newsletter Styles */
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+.newsletter img {
+  width: 150px;
+  height: 150px;
+}
+.newsletter h1 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.newsletter p {
+  width: 80%;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.newsletter form {
+  display: flex;
+  column-gap: 0px;
+}
+.newsletter input {
+  background: #fff;
+  border: none;
+}
+#email {
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 18px;
+  width: 450px;
+  padding: 25px 30px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#email:focus {
+  color: rgba(7, 2, 17, 0.3);
+}
+#submit {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 24px 56px;
+  border-radius: 0px 50px 50px 0px;
+  background-color: #f00;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #070211;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 140px 120px;
+}
+footer hr {
+  height: 1px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.footer-address,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.contact-mobile,
+.contact-email {
+  display: flex;
+  column-gap: 1rem;
+}
+.footer-social-menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-social-menu img {
+  width: 64px;
+  height: 64px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-bottom a {
+  text-decoration: none;
+  color: #ffffff;
+}
