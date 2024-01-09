@@ -16,14 +16,15 @@ header {
   width: 1320px;
   height: 600px;
   margin: 0 auto;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+  background: linear-gradient(180deg, #070211 0%, #07021100 100%),
     url("images/Banner Image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 120px;
+  border-radius: 1rem;
+  margin-bottom: 7.5rem;
 }
 .banner {
-  font-family: "Merriweather";
+  font-family: "Merriweather", serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,59 +32,62 @@ header {
   margin-top: 2rem;
   min-height: 600px;
   color: #ffffff;
-  border-radius: 1rem;
 }
 .banner-info {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .banner-title {
   text-align: center;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 900;
   width: 640px;
 }
 
 /* Main Styles */
 main {
-  max-width: 1320px;
+  width: 1320px;
   margin: 0 auto;
 }
 
 /* Offer Card Styles */
 .offer-card {
-  margin-bottom: 5rem;
+  margin-bottom: 7.5rem;
   text-align: center;
 }
 .offer-card h1 {
   color: #ff0000;
-  font-size: 88px;
+  font-size: 5.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
 }
 .offer-card h6 {
   color: #ff0000;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .offer-card h2 {
   color: #070211;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
+}
+.offer-card img {
+  height: 500px;
+  width: auto;
 }
 
 /* Party Card Styles */
 .party {
   height: 600px;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+  background: linear-gradient(90deg, #070211 0%, #07021100 100%),
     url("images/Vectorrr.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,23 +99,22 @@ main {
   justify-content: center;
 }
 .party-card h1 {
-  font-family: "Merriweather";
+  font-family: "Merriweather", serif;
   width: 640px;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 900;
-  letter-spacing: 7.04px;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .party-card p {
   width: 690px;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 .party-card a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 2rem;
@@ -131,7 +134,7 @@ main {
     rgba(255, 0, 0, 0) 100%
   );
   border-radius: 1rem;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 .party-venue-card {
   display: flex;
@@ -157,46 +160,46 @@ main {
   border-radius: 8px;
   background-color: #ff0000;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 /* Coming Soon Styles */
 .coming-soon {
-  margin-bottom: 120px;
-  height: 463px;
   display: flex;
   align-items: center;
   column-gap: 5rem;
+  height: 460px;
+  margin-bottom: 7.5rem;
 }
 .coming-soon-left {
   width: 40%;
 }
 .coming-soon-left h4 {
   color: #ff0000;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .coming-soon-left h3 {
   color: #070211;
-  font-family: "Merriweather";
-  font-size: 48px;
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
   font-weight: 900;
   text-transform: capitalize;
-  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
 }
 .coming-soon-left p {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  color: #07021199;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 .coming-soon-center {
-  width: 364.844px;
-  height: 364.844px;
+  width: 364px;
+  height: 364px;
   padding: 1rem;
-  border: 15px solid #f00;
+  border: 15px solid #ff0000;
   border-radius: 50%;
 }
 .coming-soon-right {
@@ -204,15 +207,15 @@ main {
 }
 .coming-soon-right h2 {
   color: #ff0000;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 .coming-soon-right p {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  color: #07021199;
+  font-size: 1.25rem;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .coming-soon-right img {
   width: 120px;
@@ -221,23 +224,23 @@ main {
 
 /* Discount Styles */
 .discount {
-  width: 1320px;
-  height: 986px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 120px;
+  width: 1320px;
+  height: 980px;
+  margin-bottom: 7.5rem;
 }
 .discount h6 {
   color: #070211;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .discount h1 {
   color: #070211;
-  font-family: "Merriweather";
+  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 28px;
@@ -247,68 +250,73 @@ main {
 }
 .discount p {
   width: 80%;
-  color: rgba(7, 2, 17, 0.6);
+  color: #07021199;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
   text-align: center;
 }
 .discount-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  background-color: black;
+  width: 1320px;
   height: 660px;
-}
-.image-1,
-.image-2,
-.image-3 {
-  position: absolute;
+  border-radius: 1rem;
 }
 .image-1 {
-  bottom: -230px;
-  left: -645px;
+  position: absolute;
+  left: 0px;
+  z-index: 1;
 }
 .image-2 {
-  bottom: 50px;
-  left: 75px;
-  z-index: 2;
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  right: 275px;
+  z-index: 1;
 }
 .image-3 {
-  bottom: -4px;
-  right: -660px;
-}
-.image-3 img {
-  width: 429px;
-  height: 433px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 430px;
+  height: 440px;
 }
 .image-4 {
+  position: absolute;
+  bottom: 0px;
   width: 100%;
   height: 220px;
 }
+
 /* Portfolio Styles */
 .portfolio {
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 .portfolio h5 {
   color: #ff0000;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 .portfolio h3 {
   color: #070211;
-  font-family: "Merriweather";
-  font-size: 48px;
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
   font-weight: 900;
   text-transform: capitalize;
-  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
 }
 .portfolio p {
-  max-width: 80%;
+  width: 80%;
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 .portfolio-card {
   display: flex;
@@ -331,61 +339,60 @@ main {
 
 /* Newsletter Styles */
 .newsletter {
-  border-radius: 16px;
-  background: rgba(255, 0, 0, 0.05);
-  height: 620px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 120px;
+  height: 620px;
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 1rem;
+  margin-bottom: 7.5rem;
 }
 .newsletter img {
   width: 150px;
   height: 150px;
 }
 .newsletter h1 {
+  font-family: "Merriweather", serif;
   color: #070211;
-  font-family: "Merriweather";
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   text-transform: capitalize;
-  margin-top: 40px;
-  margin-bottom: 22px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .newsletter p {
-  width: 80%;
+  width: 70%;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 .newsletter form {
   display: flex;
   column-gap: 0px;
 }
-.newsletter input {
-  background: #fff;
-  border: none;
-}
 #email {
-  color: rgba(7, 2, 17, 0.3);
-  font-size: 18px;
+  background-color: #ffffff;
+  color: #0702114d;
+  font-size: 1.125rem;
   width: 450px;
-  padding: 25px 30px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  padding: 1.563rem 1.875rem;
+  border: none;
+  border-radius: 3rem 0px 0px 3rem;
+  outline: none;
 }
 #email:focus {
-  color: rgba(7, 2, 17, 0.3);
+  color: #0702114d;
 }
 #submit {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  padding: 24px 56px;
-  border-radius: 0px 50px 50px 0px;
-  background-color: #f00;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  border-radius: 0px 3rem 3rem 0px;
+  background-color: #ff0000;
   color: #ffffff;
   cursor: pointer;
 }
@@ -394,14 +401,14 @@ main {
 footer {
   background-color: #070211;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 500;
   padding: 140px 120px;
 }
 footer hr {
   height: 1px;
   border: 0;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #ffffff26;
 }
 .footer-top {
   display: flex;
@@ -417,7 +424,12 @@ footer hr {
 .contact-mobile,
 .contact-email {
   display: flex;
+  align-items: center;
   column-gap: 1rem;
+}
+.footer-contact img {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 .footer-social-menu {
   display: flex;
@@ -427,8 +439,8 @@ footer hr {
   margin-bottom: 50px;
 }
 .footer-social-menu img {
-  width: 64px;
-  height: 64px;
+  width: 45px;
+  height: 45px;
 }
 .footer-bottom {
   display: flex;
